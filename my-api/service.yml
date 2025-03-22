@@ -3,10 +3,10 @@ kind: Service
 metadata:
   name: myapi-service
 spec:
+  type: LoadBalancer
   selector:
     app: myapi
   ports:
   - port: 5238
     protocol: TCP
     targetPort: 5238
-  type: LoadBalancer
