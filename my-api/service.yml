@@ -9,3 +9,4 @@ spec:
   - port: 5238
     protocol: TCP
     targetPort: 5238
+  type: LoadBalancer
