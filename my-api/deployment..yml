@@ -16,4 +16,4 @@ spec:
       - name: myapi
         image: saqlainshaikh/api
         ports:
-        - containerPort: 8080
+        - containerPort: 5238
