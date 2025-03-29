@@ -17,3 +17,6 @@ spec:
         image: saqlainshaikh/api:20250329080712
         ports:
         - containerPort: 5238
+        env:
+        - name: ASPNETCORE_ENVIRONMENT
+          value: Development
