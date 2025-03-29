@@ -19,7 +19,7 @@ spec:
         - containerPort: 5238
         env:
         - name: ASPNETCORE_ENVIRONMENT
-          valueFrom: 
+          valueFrom:
             configMapKeyRef:
-              name: myapi-config
-              value: ASPNETCORE_ENVIRONMENT
+              name: app-config
+              key: ASPNETCORE_ENVIRONMENT
