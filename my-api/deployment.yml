@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: myapi
-        image: saqlainshaikh/api:20250402054922
+        image: saqlainshaikh/api:20250402064348
         ports:
         - containerPort: 5238
         env:
